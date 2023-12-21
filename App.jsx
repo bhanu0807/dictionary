@@ -27,6 +27,7 @@ export default function App() {
         }
       });
   }, [submitted]);
+  
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
